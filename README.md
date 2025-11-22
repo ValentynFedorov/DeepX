@@ -8,15 +8,15 @@ The following table maps the technical assignment requirements to the implemente
 
 | Requirement | Status | Implementation Details                                                                                  |
 | :--- | :---: |:--------------------------------------------------------------------------------------------------------|
-| **Frame Limit (100)** | Compliant | `src/pipeline.py`: Implements uniform frame sampling to respect the limit.                              |
-| **3D Reconstruction** | Compliant | `src/pipeline.py`: Wraps COLMAP (SfM + MVS) to generate a dense RGB point cloud[.                       |
-| **Visualization** | Compliant | `src/visualization.py`: Renders point cloud, camera frustums, and vector indicators using Open3D.       |
-| **Arbitrary Camera Vector** | Compliant | `src/cameras.py`: Extracts the actual view vector from the first registered camera's extrinsic matrix.  |
-| **Translation** | Compliant | `src/geometry.py`: Translates the model 5 units along the selected vector.                              |
-| **Rotation** | Compliant | `cpp_module/geometry_engine.cpp`: Rotates the model 60° clockwise around the vector.                    |
-| **Metric Scaling** | Compliant | `src/geometry.py`: Scales the model based on the "1 unit = 20cm" assumption to match the metric system. |
-| **Validation** | Compliant | `src/geometry.py`: Validates the physical plausibility of the object's dimensions.                      |
-| **Explanations** | Compliant | Documented in `README.md` and inline code comments.                                                     |
+| **Frame Limit (100)** | Completed | `src/pipeline.py`: Implements uniform frame sampling to respect the limit.                              |
+| **3D Reconstruction** | Completed | `src/pipeline.py`: Wraps COLMAP (SfM + MVS) to generate a dense RGB point cloud[.                       |
+| **Visualization** | Completed | `src/visualization.py`: Renders point cloud, camera frustums, and vector indicators using Open3D.       |
+| **Arbitrary Camera Vector** | Completed | `src/cameras.py`: Extracts the actual view vector from the first registered camera's extrinsic matrix.  |
+| **Translation** | Completed | `src/geometry.py`: Translates the model 5 units along the selected vector.                              |
+| **Rotation** | Completed | `cpp_module/geometry_engine.cpp`: Rotates the model 60° clockwise around the vector.                    |
+| **Metric Scaling** | Completed | `src/geometry.py`: Scales the model based on the "1 unit = 20cm" assumption to match the metric system. |
+| **Validation** | Completed | `src/geometry.py`: Validates the physical plausibility of the object's dimensions.                      |
+| **Explanations** | Completed | Documented in `README.md` and inline code comments.                                                     |
 
 ## 2. System Architecture
 
