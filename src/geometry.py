@@ -141,7 +141,6 @@ class GeometryProcessor:
         scale_factor = 1.0  # Metric scaling is handled in a separate step
 
         if CPP_AVAILABLE:
-            # === C++ ACCELERATED PATH ===
             print("Using C++ backend for transformations...")
 
             points = np.asarray(pcd.points)
