@@ -1,0 +1,14 @@
+
+[build-system]
+requires = ["setuptools>=42", "wheel", "pybind11>=2.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepx_core"
+version = "1.0.0"
+description = "C++ accelerated geometry operations for 3D reconstruction"
+requires-python = ">=3.7"
+dependencies = ["pybind11>=2.6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest", "numpy"]

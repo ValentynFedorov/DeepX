@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: deepx_core
+Version: 1.0.0
+Summary: C++ accelerated geometry operations for 3D reconstruction
+Author: DeepX Candidate
+Requires-Python: >=3.7
+Requires-Dist: pybind11>=2.6.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: numpy; extra == "dev"
+Dynamic: author
+Dynamic: requires-python
