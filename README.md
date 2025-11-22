@@ -1,6 +1,6 @@
 # DeepX Technical Assignment: 3D Reconstruction Pipeline
 
-This repository contains a modular photogrammetry pipeline designed to reconstruct a 3D object from video input and perform precise geometric transformations. The solution features a hybrid Python/C++ architecture to balance development flexibility with computational performance.
+Also prepared a short presentation ((https://docs.google.com/presentation/d/1Pn4m1b2SL-WNzgy7bMY1u2_Vq2ZAoesvr0F6T5hpuPs/edit?usp=sharing))
 
 ## 1. Requirement Compliance Matrix
 
